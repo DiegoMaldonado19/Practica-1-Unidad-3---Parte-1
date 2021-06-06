@@ -1,0 +1,6 @@
+Algoritmo algoritmo5
+	Escribir "Ingrese un numero";
+	Leer num;
+	siguienteNumero = num+1;
+	Escribir "El numero que sigue a ",num, " es ",siguienteNumero;
+FinAlgoritmo
