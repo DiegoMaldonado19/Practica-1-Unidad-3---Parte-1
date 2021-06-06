@@ -1,0 +1,13 @@
+Algoritmo algoritmo20
+	Escribir "Ingrese un numero de 5 cifras";
+	Leer num;
+	d1 = Subcadena(num,1,1);
+	d2 = Subcadena(num,2,2);
+	d4 = Subcadena(num,4,4);
+	d5 = Subcadena(num,5,5);
+	Si d1==d5 && d2==d4 Entonces
+		Escribir "El numero ", num, " es capicua";
+	SiNo
+		Escribir "El numero ",num, " no es capicua";
+	Fin Si
+FinAlgoritmo
