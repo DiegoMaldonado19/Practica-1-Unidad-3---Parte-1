@@ -1,0 +1,10 @@
+Algoritmo algoritmo10
+	Escribir "Ingrese la base de su rectangulo";
+	Leer base;
+	Escribir "Ingrese la altura de su rectangulo";
+	Leer altura;
+	perimetro = (2*base)+(2*altura);
+	area = base*altura;
+	Escribir "El perimetro de su cuadrado es ", perimetro;
+	Escribir "El area de su cuadrado es ", area;
+FinAlgoritmo
