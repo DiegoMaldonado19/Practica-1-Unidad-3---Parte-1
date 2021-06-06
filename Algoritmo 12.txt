@@ -1,0 +1,6 @@
+Algoritmo algoritmo12
+	Escribir "Ingrese su temperatura en grados celsius";
+	Leer tempCelsius;
+	tempFahrenheit = (tempCelsius*(9/5))+32;
+	Escribir "La temperatura en grados fahrenheit es de: ",tempFahrenheit;
+FinAlgoritmo
