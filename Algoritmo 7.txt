@@ -1,0 +1,6 @@
+Algoritmo algoritmo7
+	numeroAleatorio = azar(50)+10;
+	Escribir "El numero aleatorio es ",numeroAleatorio;
+	numeroDisminuido = numeroAleatorio-(numeroAleatorio*0.15);
+	Escribir "El numero disminuido al 15% es ", numeroDisminuido;
+FinAlgoritmo
