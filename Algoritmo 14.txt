@@ -1,0 +1,11 @@
+Algoritmo algoritmo14
+	Escribir "Ingrese dos numeros";
+	Leer numero1;
+	Leer numero2;
+	residuo = numero1 MOD numero2;
+	Si residuo == 0 Entonces
+		Escribir "Numeros divisbles entres si";
+	SiNo
+		Escribir "Numeros no divisibles entres si";
+	Fin Si
+FinAlgoritmo
