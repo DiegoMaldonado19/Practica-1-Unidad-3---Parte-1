@@ -1,0 +1,10 @@
+Algoritmo algoritmo11
+	Escribir "Ingrese la medida en centimetros";
+	Leer medidaCentimetros;
+	medidaYardas = medidaCentimetros/94.4;
+	medidaMetros  = medidaCentimetros/100;
+	medidaPulgadas = medidaCentimetros/2.54;
+	Escribir "La medida en yardas es de: ", medidaYardas;
+	Escribir "La medida en metros es de: ", medidaMetros;
+	Escribir "La medida en pulgadas es de: ", medidaPulgadas;
+FinAlgoritmo
