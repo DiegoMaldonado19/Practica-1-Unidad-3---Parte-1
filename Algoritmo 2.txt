@@ -1,0 +1,7 @@
+Algoritmo algoritmo2
+	Escribir "Ingrese su pais";
+	Leer pais;
+	Escribir "Ingrese la capital de su pais";
+	Leer capital;
+	Escribir "Su pais es ", pais, " y su capital es ",capital;
+FinAlgoritmo
