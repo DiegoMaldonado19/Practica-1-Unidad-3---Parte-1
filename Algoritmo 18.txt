@@ -1,0 +1,10 @@
+Algoritmo algoritmo18
+	Escribir "Ingrese un numero de maximo cuatro digitos";
+	Leer num;
+	d1 = SubCadena(num,1,1);
+	d2 = Subcadena(num,2,2);
+	d3 = Subcadena(num,3,3);
+	d4 = Subcadena(num,4,4);
+	suma = ConvertirANumero(d1)+ConvertirANumero(d2)+ConvertirANumero(d3)+ConvertirANumero(d4);
+	Escribir "La suma de los digitos del numero ingresado es: ", suma;
+FinAlgoritmo
