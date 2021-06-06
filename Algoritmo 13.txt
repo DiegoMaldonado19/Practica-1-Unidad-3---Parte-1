@@ -1,0 +1,12 @@
+Algoritmo algoritmo13
+	Escribir "Ingrese el radio de su cilindro";
+	Leer radio;
+	Escribir "Ingrese la altura de su cilindro";
+	Leer altura;
+	Si radio>0 && altura>0 Entonces
+		volumen = (PI)*(radio)^2*(altura);
+		Escribir "El volumen de su cilindro es de: ", volumen;
+	SiNo
+		Escribir "El radio y la altura deben ser mayores que cero";
+	Fin Si
+FinAlgoritmo
