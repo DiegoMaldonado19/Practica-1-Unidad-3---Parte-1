@@ -1,0 +1,6 @@
+Algoritmo algoritmo6
+	numeroAleatorio = azar(200);
+	Escribir "Su numero aleatorio es ", numeroAleatorio;
+	numeroAumentado = (numeroAleatorio*0.30)+numeroAleatorio;
+	Escribir "Su numero aumentado al 30% es ", numeroAumentado;
+FinAlgoritmo
