@@ -1,0 +1,10 @@
+Algoritmo algoritmo19
+	numeroAleatorio = azar(100)+1;
+	Escribir "Su numero aleatorio es: ",numeroAleatorio;
+	resto = numeroAleatorio MOD 5;
+	Si resto==0 && numeroAleatorio<=25 entonces
+		Escribir "Correcto";
+	SiNo
+		Escribir "Incorrecto";
+	Fin Si
+FinAlgoritmo
